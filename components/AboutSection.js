@@ -3,7 +3,7 @@ import styles from "../styles/AboutSection.module.css";
 const AboutSection = () => {
   return (
     <section className={styles.about}>
-      <h2>About NEO SEOUL</h2>
+      <h2>About NEOSEOUL</h2>
       <p><strong>Connecting Global Consumers with Premium Fashion</strong></p>
       <p>Founded in 2025 and headquartered in Seoul, South Korea, NEO SEOUL is a global platform that delivers high-quality fashion accessories and lifestyle products to consumers worldwide.</p> <p>By collaborating with leading brands, we offer a curated selection of trendsetting designs that define contemporary fashion.</p>
 
