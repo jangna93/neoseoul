@@ -27,7 +27,7 @@ export default async function handler(req, res) {
   try {
     await transporter.sendMail({
       from: `NeoSeoul <${process.env.EMAIL_USER}>`, // ✅ 내 이메일로 고정
-      to: neoseoul2025@gmail.com, // ✅ 내 이메일로 메일 받기
+      to: "neoseoul2025@gmail.com", // ✅ 내 이메일로 메일 받기
       subject: "New Contact Form Submission",
       replyTo: email, // 📌 답장하면 사용자 이메일로 회신됨
       html: `
