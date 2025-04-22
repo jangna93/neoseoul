@@ -1,0 +1,37 @@
+.about {
+  text-align: center;
+  background: linear-gradient(to bottom, #f5f7fa, #ffffff); /* 🔥 위에서 아래로 자연스러운 연결 */
+  color: #1d3557; /* 차분한 네이비 계열 */
+  padding: 60px 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05); /* 🔥 아래쪽 부드러운 그림자 */
+}
+
+.about h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif; /* 🔥 폰트 스타일 개선 */
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.8;
+  max-width: 500px; /* 🔹 가로 너비를 줄여서 줄바꿈 빈도 증가 */
+  margin: 0 auto;
+  text-align: justify;
+  font-family: "Inter", sans-serif; /* 🔥 가독성이 높은 고급스러운 폰트 */
+  color: #34495e; /* 🔹 너무 진하지 않으면서도 차분한 네이비 */
+}
+
+.quote {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #2c3e50;
+}
+
+.about p strong {
+  letter-spacing: 1px; /* 🔥 강조된 텍스트만 자간 추가 */
+  font-weight: 600; /* 🔥 강조된 글씨 두께 조정 */
+}

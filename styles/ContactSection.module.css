@@ -1,0 +1,105 @@
+.contact {
+    background: #ffffff; /* 🔥 배경을 흰색으로 변경 */
+    color: #333333; /* 🔥 기본 글자 색 (어두운 회색) */
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .contact {
+    background: #ffffff;
+    color: #333333;
+    padding: 80px 20px 60px; /* 🔥 상단 여백을 조금 줄여서 부드럽게 연결 */
+}
+  .contact h2 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: #000000; /* 🔥 제목은 더 진한 검정 */
+  }
+  
+  .contact .description {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+    color: #555555; /* 🔥 더 부드러운 어두운 회색 */
+  }
+  
+  .contactInfo {
+    margin-top: 30px;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #444444;
+  }
+  
+  .contactInfo p {
+    margin: 5px 0;
+  }
+  
+  /* 🔥 폼 스타일 */
+  .contactForm {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc; /* 🔥 모던한 느낌의 부드러운 회색 테두리 */
+    background: #f9f9f9; /* 🔥 살짝 밝은 배경 */
+    color: #000000; /* 🔥 입력 내용은 검정 */
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .contactForm textarea {
+    height: 120px;
+  }
+  
+  /* 🔥 버튼: 모던한 블랙 스타일 */
+  .contactForm button {
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    background: #000000; /* 🔥 검정 버튼 */
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contactForm button:hover {
+    background: #333333; /* 🔥 마우스 호버 시 연한 블랙 */
+  }
+  
+  /* 🔥 SNS 아이콘: 검정 스타일 */
+  .socialIcons {
+    margin-top: 20px;
+  }
+  
+  .socialIcons a {
+    color: #222222; /* 🔥 기본 검정 */
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .socialIcons a:hover {
+    color: #666666; /* 🔥 마우스 호버 시 회색 */
+  }
+
+  .success {
+    color: green;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  
