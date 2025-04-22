@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section className={styles.hero}>
       <div className={styles.background}></div>
-      <h1>NEO SEOUL</h1>
+      <h1>NEOSEOUL</h1>
       <p><span>New Soul, New You</span></p>
       <a href="/stores" className={styles.storeButton}>
         Explore Stores
