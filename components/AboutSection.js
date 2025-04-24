@@ -11,7 +11,7 @@ const AboutSection = () => {
 
       <p>By seamlessly connecting brands with global markets, we are redefining how fashion is discovered and experienced.</p>
 
-      <p><strong>"New Soul, New You"</strong> – Redefine yourself with NEO SEOUL.</p>
+      <p><strong>"New Soul, New You"</strong> – Redefine yourself with NEOSEOUL.</p>
     </section>
   );
 };
