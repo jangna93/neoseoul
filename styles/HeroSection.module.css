@@ -140,4 +140,23 @@
   font-weight: bold;
 }
 
+/* 🔧 모바일 전용 글씨 크기 조정 */
+@media only screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.2rem !important;
+  }
+
+  .hero p {
+    font-size: 1rem !important;
+  }
+
+  .identityText {
+    font-size: 0.5rem !important;
+  }
+
+  .storeButton {
+    font-size: 0.9rem !important;
+    padding: 4px 30px !important;
+  }
+}
   
