@@ -102,4 +102,38 @@
     font-size: 1.1rem;
     text-align: center;
   }
+
+/* 📱 모바일 전용 글씨 크기 조정 for .contact */
+@media only screen and (max-width: 768px) {
+  .contact h2 {
+    font-size: 1.4rem !important;
+  }
+
+  .contact .description {
+    font-size: 0.85rem !important;
+  }
+
+  .contactInfo {
+    font-size: 0.9rem !important;
+  }
+
+  .contactForm input,
+  .contactForm textarea {
+    font-size: 0.95rem !important;
+  }
+
+  .contactForm button {
+    font-size: 0.9rem !important;
+    padding: 10px !important;
+  }
+
+  .socialIcons a {
+    font-size: 1.2rem !important;
+  }
+
+  .success,
+  .error {
+    font-size: 1rem !important;
+  }
+}
   
