@@ -16,7 +16,8 @@
     "nodemailer": "^6.10.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-icons": "^5.5.0"
+    "react-icons": "^5.5.0",
+    "resend": "^1.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -27,7 +28,4 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.12"
   }
-}
-"dependencies": {
-  "resend": "^1.0.0"
 }
