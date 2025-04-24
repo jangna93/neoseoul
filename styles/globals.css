@@ -77,3 +77,27 @@ body {
 .fade-in {
   animation: fadeIn 1.5s ease-in-out;
 }
+
+/* 모바일 화면에서만 글씨 크기 줄이기 */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p, span, li {
+    font-size: 14px;
+  }
+
+  button, input, label {
+    font-size: 13px;
+  }
+}
+
