@@ -28,3 +28,6 @@
     "tailwindcss": "^4.0.12"
   }
 }
+"dependencies": {
+  "resend": "^1.0.0"
+}
