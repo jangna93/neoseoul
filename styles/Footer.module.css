@@ -1,0 +1,15 @@
+.footer {
+  background-color: #0f0f0f;
+  color: #cccccc;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    font-size: 0.8rem;
+    padding: 25px 15px;
+  }
+}
