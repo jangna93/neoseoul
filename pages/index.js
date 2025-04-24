@@ -11,7 +11,6 @@ export default function Home() {
         <title>NEOSEOUL - Fashion Inspired By Seoul</title>
         <meta name="description" content="New Soul, New You - Global Fashion Select Shop" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
         <HeroSection />
