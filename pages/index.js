@@ -19,3 +19,14 @@ export default function Home() {
     </>
   );
 }
+
+import Footer from "../components/Footer";
+
+export default function Home() {
+  return (
+    <>
+      {/* ... HeroSection, About, Contact 등 */}
+      <Footer />
+    </>
+  );
+}
