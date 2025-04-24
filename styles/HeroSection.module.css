@@ -162,6 +162,6 @@
 
 @media only screen and (max-width: 768px) {
   .hero {
-    padding-top: 70px !important; /* 🔽 180px → 80px로 줄임 */
+    padding-top: 60px !important; /* 🔽 180px → 80px로 줄임 */
   }
 }
