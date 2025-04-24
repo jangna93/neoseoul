@@ -43,11 +43,11 @@
   }
 
   .about p {
-    font-size: 0.5rem !important;
+    font-size: 0.2rem !important;
     line-height: 1.6 !important;
   }
 
   .quote {
-    font-size: 0.5rem !important;
+    font-size: 0.2rem !important;
   }
 }
