@@ -35,3 +35,19 @@
   letter-spacing: 1px; /* 🔥 강조된 텍스트만 자간 추가 */
   font-weight: 600; /* 🔥 강조된 글씨 두께 조정 */
 }
+
+/* 📱 모바일 전용 글씨 크기 조정 for .about */
+@media only screen and (max-width: 768px) {
+  .about h2 {
+    font-size: 1.4rem !important;
+  }
+
+  .about p {
+    font-size: 0.95rem !important;
+    line-height: 1.6 !important;
+  }
+
+  .quote {
+    font-size: 1rem !important;
+  }
+}
