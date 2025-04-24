@@ -14,15 +14,15 @@ export default async function handler(req, res) {
 
   try {
     const result = await resend.emails.send({
-      from: process.env.EMAIL_FROM, // 예: inquiry@neoseoul.kr
-      to: process.env.EMAIL_TO,     // 예: neoseoul2025@gmail.com
+      from: process.env.EMAIL_FROM,
+      to: process.env.EMAIL_TO,
       subject: "New Contact Form Submission",
       reply_to: email,
       html: `
-        <h2>📩 새로운 문의가 도착했습니다!</h2>
-        <p><strong>이름:</strong> ${name}</p>
-        <p><strong>이메일:</strong> ${email}</p>
-        <p><strong>메시지:</strong><br>${message}</p>
+        <h2>📩 New Inquiry Received!</h2>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Message:</strong><br>${message}</p>
       `,
     });
 
