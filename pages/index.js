@@ -2,6 +2,7 @@ import Head from "next/head";
 import HeroSection from "../components/HeroSection";
 import AboutSection from "../components/AboutSection";
 import ContactSection from "../components/ContactSection";
+import Footer from "../components/Footer"; // ✅ 푸터도 위로!
 
 export default function Home() {
   return (
@@ -16,17 +17,7 @@ export default function Home() {
         <AboutSection />
         <ContactSection />
       </main>
-    </>
-  );
-}
-
-import Footer from "../components/Footer";
-
-export default function Home() {
-  return (
-    <>
-      {/... HeroSection, About, Contact 등/}
-      <Footer />
+      <Footer /> {/* ✅ 푸터는 main 바깥, 전체 페이지 맨 아래에 위치 */}
     </>
   );
 }
