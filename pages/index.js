@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>NEO SEOUL</title>
+        <title>NEOSEOUL - Inspired By Seoul</title>
         <meta name="description" content="New Soul, New You - 글로벌 패션 셀렉트샵" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
