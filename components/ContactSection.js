@@ -61,7 +61,7 @@ const ContactSection = () => {
       {/* SNS 아이콘 */}
       <div className={styles.socialIcons}>
         <a href="https://instagram.com/neoseoul_official" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+        <a href="https://facebook.com/neoseoul.official" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
       </div>
 
       <div className={styles.contactInfo}>
